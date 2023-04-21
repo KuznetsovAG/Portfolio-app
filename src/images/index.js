@@ -1,0 +1,14 @@
+export { default as github } from "./github.svg";
+export { default as telegram } from "./telegram.svg";
+export { default as frontend } from "./frontend.svg";
+export { default as developer } from "./developer.svg";
+export { default as arrow } from "./arrow.svg";
+export { default as alex } from "./alex.png";
+export { default as htmlIcon } from "./HTML.svg";
+export { default as css } from "./CSS.svg";
+export { default as js } from "./JS.svg";
+export { default as react } from "./React.svg";
+export { default as redux } from "./Redux.svg";
+export { default as ts } from "./TS.svg";
+export { default as git } from "./Git.svg";
+export { default as bs } from "./Bootstrap.svg";
