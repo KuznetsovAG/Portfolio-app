@@ -74,6 +74,7 @@ body {
 
 /* PAGE */
 
+
 /* .page__container {
   border: 1px solid rgb(3, 56, 230);
   display: flex;
@@ -337,6 +338,10 @@ body {
   color: #E73C3C;
 }
 
+.technologies__title-mobile {
+  display: none;
+}
+
 .technologies__description {
   display: flex;
   flex-wrap: wrap;
@@ -457,6 +462,7 @@ body {
   .about__page {
     padding: 0px;
     background: #242424;
+    margin-bottom: 80px;
   }
 
   .about__container {
@@ -489,6 +495,18 @@ body {
     gap: 10px;
   }
 
+  .skill-title {
+    display: none;
+  }
+  .technologies__title-mobile {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .technologies__description {
+    flex-direction: column;
+  }
+
   .developer__title {
     font-size: 44px;
     line-height: 50px;
@@ -509,13 +527,33 @@ body {
 
 @media (max-width:535px) {
   ._container {
-    padding: 0px 15px;
+    padding: 0px 20px;
+  }
+  .header {
+    margin-bottom: 52px;
+  }
+  .about__photo {
+    width: 332px;
+    height: 392px;
+  }
+  .header__container {
+    justify-content: center;
+  }
+  .about__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page__developer {
+    margin: 0;
+  } 
+  .developer__title {
+    text-align: center;
   }
 
-  .about__photo {
-    width: 252px;
-    height: 292px;
-  }
+  .menu__item {
+
+    margin-right: 40px;
+    }
 
   .about__title, .education__title, .projects__header, .technologies__title {
     font-size: 24px;
@@ -523,15 +561,17 @@ body {
     margin-bottom: 15px;
   }
   .education {
-    padding: 36px 0px;
+    padding: 0px;
+    margin-bottom: 80px;
   }
   .projects {
     padding: 0px;
-    margin-bottom: 36px;
+    margin-bottom: 80px;
   }
   .technologies {
     background: #242424;
     padding: 0px;
+    margin-bottom: 20px;
   }
   .pages__link {
     font-size: 16px;
@@ -549,7 +589,13 @@ body {
   .header__contacts {
     display: none;
   }
-  
+
+  .education__description {
+    margin-bottom: 40px;
+  }
+  .footer {
+    background: #333333;
+  }
 }
 
 
@@ -563,6 +609,8 @@ body {
     font-size: 34px;
     line-height: 50px;
   }
+
+
   
   .developer__profession {
     font-size: 48px;
@@ -574,15 +622,9 @@ body {
     line-height: 20px;
     margin-right: 40px;
     }
-    .header__container {
-      justify-content: center;
-    }
     
     .education__year {
       margin-right: 30px;
-    }
-    .contacts__summary, .header__icons{
-      border: 1px solid rgb(247, 20, 20);
     }
     .footer__contacts {
       flex-direction: column;

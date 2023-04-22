@@ -20,11 +20,7 @@ const Header = () => {
           >
             <img src={github} alt="github" className="icon__github" />
           </a>
-          <a
-            href="https://web.telegram.org/k/#@KuznetsovvAG"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://t.me/KuznetsovvAG" target="_blank" rel="noreferrer">
             <img src={telegram} alt="github" className="icon__github" />
           </a>
           <div className="header__contacts contacts">

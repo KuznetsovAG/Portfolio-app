@@ -5,6 +5,9 @@ const Technologies = () => {
   return (
     <div className="technologies">
       <div className="technologies__container _container">
+        <h2 className="technologies__title technologies__title-mobile">
+          Навыки
+        </h2>
         <div className="technologies__description">
           <div className="technologies__skill skill-title">
             <div className="skill">

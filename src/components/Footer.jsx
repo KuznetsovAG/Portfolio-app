@@ -46,7 +46,7 @@ const Footer = () => {
               <img src={github} alt="github" className="icon__github" />
             </a>
             <a
-              href="https://web.telegram.org/k/#@KuznetsovvAG"
+              href="https://t.me/KuznetsovvAG"
               target="_blank"
               rel="noreferrer"
             >
