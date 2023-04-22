@@ -59,6 +59,9 @@ body {
 .menu__item {
   margin-right: 66px;
 }
+.menu__item:hover {
+  cursor: pointer;
+}
 
 .menu__item:last-of-type {
   margin: 0;
@@ -284,7 +287,7 @@ body {
   line-height: 50px;
   text-transform: uppercase;
   color: #E73C3C;
-  margin-right: 40px;
+  margin-right: 20px;
   width: 372px;
 }
 /* 
@@ -307,7 +310,7 @@ body {
   line-height: 20px;
   color: #EFEDE7;
   opacity: 0.65;
-  margin-right: 88px;
+  margin-right: 90px;
 }
 
 .name__title {
@@ -492,8 +495,10 @@ body {
   .education__description {
     flex-direction: column;
   }
+
   .education__title {
     margin-bottom: 30px;
+    width: 100%;
   }
   .projects__container {
     flex-direction: column;

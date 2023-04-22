@@ -2,14 +2,32 @@ import React from "react";
 import { github, telegram } from "../images";
 
 const Header = () => {
+  const handleAboutScroll = () => {
+    const aboutPage = document.getElementById("section-1");
+    if (aboutPage) {
+      aboutPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleProjectScroll = () => {
+    const projectPage = document.getElementById("section-2");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
       <div className="header__container _container">
         <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item">Главная</li>
-            <li class="menu__item">Обо мне</li>
-            <li class="menu__item">Образование</li>
+            <li class="menu__item" onClick={handleAboutScroll}>
+              Обо мне
+            </li>
+            <li class="menu__item" onClick={handleProjectScroll}>
+              Проекты
+            </li>
           </ul>
         </nav>
         <div className="header__icons">

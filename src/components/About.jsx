@@ -2,7 +2,7 @@ import React from "react";
 import { arrow, alex } from "../images";
 const About = () => {
   return (
-    <div className="about__page">
+    <div className="about__page" id="section-1">
       <div className="about__container _container">
         <img src={alex} alt="alex" className="about__photo" />
         <div className="about__summary">
