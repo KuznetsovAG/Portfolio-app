@@ -13,6 +13,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/1X7ObumwsRlemRVQv00Wmivv8f-ntRjjU/view?usp=share_link"
                 target="_blank"
                 rel="noreferrer"
+                className="summary__arrow"
               >
                 <img src={arrow} alt="arrow" />
               </a>

@@ -78,11 +78,7 @@ body {
 /* PAGE */
 
 
-/* .page__container {
-  border: 1px solid rgb(3, 56, 230);
-  display: flex;
-  justify-content: center;
-} */
+
 .page__developer {
     margin-bottom: 178px;
     height: 440px;
@@ -90,7 +86,6 @@ body {
 
 .developer__body {
   position: relative;
-  /* border: 1px solid rgb(11, 35, 255); */
 }
 
 .developer__title {
@@ -167,11 +162,13 @@ body {
 
 .about__cv {
   display: flex;
-  align-items: center;
   margin-bottom: 260px;
 }
 
-
+.summary__arrow {
+  display: flex;
+  align-items: center;
+}
 
 .summary__title {
   font-size: 32px;
@@ -284,18 +281,12 @@ body {
 .education__title {
   font-weight: 800;
   font-size: 40px;
-  line-height: 50px;
   text-transform: uppercase;
   color: #E73C3C;
   margin-right: 20px;
   width: 372px;
 }
-/* 
-.education__cards {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-} */
+
 
 .education__card {
   display: flex;
@@ -334,9 +325,7 @@ body {
   padding: 120px 0px;
 }
 
-/* .technologies__container{
-  display: flex;
-} */
+
 
 .technologies__title {
   font-weight: 800;
@@ -424,6 +413,10 @@ body {
   opacity: 0.65;
   margin-bottom: 10px;
 }
+.project__items  a{
+  color: #EFEDE7;
+  opacity: 0.65;
+}
 
 .contacts__summary {
   display: flex;
@@ -491,6 +484,9 @@ body {
 }
 
 @media (max-width:720px) {
+  .header__container {
+    justify-content: center;
+  }
 
   .education__description {
     flex-direction: column;
@@ -533,6 +529,13 @@ body {
     margin-right: 30px;
     margin-bottom: 30px;
   }
+  .technologies__skill {
+    width: 100%;
+  }
+
+  .project__card {
+    width: 100%;
+  }
 }
 
 @media (max-width:535px) {
@@ -545,9 +548,6 @@ body {
   .about__photo {
     width: 332px;
     height: 392px;
-  }
-  .header__container {
-    justify-content: center;
   }
   .about__container {
     flex-direction: column;

@@ -17,12 +17,60 @@ const Footer = () => {
           <div className="pages__projects">
             <h2 className="pages__projects-title">Проекты</h2>
             <ul>
-              <li className="project__items">Приложение на React JS</li>
-              <li className="project__items">Каталог товаров</li>
-              <li className="project__items">Книжная библиотека</li>
-              <li className="project__items">Wildberries basket</li>
-              <li className="project__items">Todo-list React JS</li>
-              <li className="project__items">Сайт финансовой компании</li>
+              <li className="project__items">
+                <a
+                  href="https://fast-company-final.vercel.app/users"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Приложение на React JS
+                </a>
+              </li>
+              <li className="project__items">
+                <a
+                  href="https://product-catalog-green.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Каталог товаров
+                </a>
+              </li>
+              <li className="project__items">
+                <a
+                  href="https://book-library-eight.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Книжная библиотека
+                </a>
+              </li>
+              <li className="project__items">
+                <a
+                  href="https://wb-first-project.vercel.app/#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Wildberries basket
+                </a>
+              </li>
+              <li className="project__items">
+                <a
+                  href="https://todolist-react-js-gules.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Todo-list React JS
+                </a>
+              </li>
+              <li className="project__items">
+                <a
+                  href="https://kuznetsovag.github.io/Site-layout-Finance-and-Consultancy/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Сайт финансовой компании
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -33,6 +81,7 @@ const Footer = () => {
               href="https://drive.google.com/file/d/1X7ObumwsRlemRVQv00Wmivv8f-ntRjjU/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
+              className="summary__arrow"
             >
               <img src={arrow} alt="arrow" />
             </a>
