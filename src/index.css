@@ -188,6 +188,11 @@ body {
   margin-bottom: 10px;
 }
 
+.about__text {
+  line-height: 150%;
+  text-align: justify;
+}
+
 /* PROJECTS */
 
 .projects {
@@ -571,7 +576,7 @@ body {
   .technologies {
     background: #242424;
     padding: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
   .pages__link {
     font-size: 16px;
@@ -595,6 +600,7 @@ body {
   }
   .footer {
     background: #333333;
+    padding: 80px 0px;
   }
 }
 
@@ -606,7 +612,7 @@ body {
     padding: 0px 40px;
   }
   .developer__title {
-    font-size: 34px;
+    font-size: 35px;
     line-height: 50px;
   }
 

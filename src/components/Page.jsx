@@ -6,7 +6,8 @@ const Page = () => {
       <div className="page__container _container">
         <div className="page__developer developer">
           <h2 className="developer__title">
-            <span className="developer__profession">Frontend</span> <br />
+            <span className="developer__profession">Frontend</span>
+            <br />
             разработчик
           </h2>
           <div className="developer__body">
