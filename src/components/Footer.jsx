@@ -2,20 +2,60 @@ import React from "react";
 import { github, telegram, arrow } from "../images";
 
 const Footer = () => {
+  const handleAboutScroll = () => {
+    const aboutPage = document.getElementById("section-1");
+    if (aboutPage) {
+      aboutPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleSkillsScroll = () => {
+    const projectPage = document.getElementById("section-3");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleEducationScroll = () => {
+    const projectPage = document.getElementById("section-4");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleMainScroll = () => {
+    const projectPage = document.getElementById("section-5");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleProjectScroll = () => {
+    const projectPage = document.getElementById("section-2");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="footer">
       <div className="footer__container _container">
         <div className="footer__pages pages">
           <div className="pages__item">
             <ul>
-              <li className="pages__link">Главная</li>
-              <li className="pages__link">Обо мне</li>
-              <li className="pages__link">Образование</li>
-              <li className="pages__link">Навыки</li>
+              <li className="pages__link" onClick={handleMainScroll}>
+                Главная
+              </li>
+              <li className="pages__link" onClick={handleAboutScroll}>
+                Обо мне
+              </li>
+              <li className="pages__link" onClick={handleEducationScroll}>
+                Образование
+              </li>
+              <li className="pages__link" onClick={handleSkillsScroll}>
+                Навыки
+              </li>
             </ul>
           </div>
           <div className="pages__projects">
-            <h2 className="pages__projects-title">Проекты</h2>
+            <h2 className="pages__projects-title" onClick={handleProjectScroll}>
+              Проекты
+            </h2>
             <ul>
               <li className="project__items">
                 <a

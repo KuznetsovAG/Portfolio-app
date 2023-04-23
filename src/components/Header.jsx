@@ -16,12 +16,21 @@ const Header = () => {
     }
   };
 
+  const handleMainScroll = () => {
+    const projectPage = document.getElementById("section-5");
+    if (projectPage) {
+      projectPage.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
       <div className="header__container _container">
         <nav class="header__menu menu">
           <ul class="menu__list">
-            <li class="menu__item">Главная</li>
+            <li class="menu__item" onClick={handleMainScroll}>
+              Главная
+            </li>
             <li class="menu__item" onClick={handleAboutScroll}>
               Обо мне
             </li>

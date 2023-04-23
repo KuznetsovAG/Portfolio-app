@@ -2,7 +2,7 @@ import React from "react";
 import { frontend, developer } from "../images";
 const Page = () => {
   return (
-    <div className="page">
+    <div className="page" id="section-5">
       <div className="page__container _container">
         <div className="page__developer developer">
           <h2 className="developer__title">
