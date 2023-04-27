@@ -168,7 +168,7 @@ body {
 
 .about__cv {
   display: flex;
-  margin-bottom: 260px;
+  margin-bottom: 280px;
 }
 
 .summary__arrow {
@@ -496,6 +496,9 @@ body {
 }
 
 @media (max-width:720px) {
+  .page {
+    padding-top: 134px;
+  }
   .header__container {
     justify-content: center;
   }

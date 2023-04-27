@@ -12,16 +12,15 @@ const Page = () => {
           </h2>
           <div className="developer__body">
             <p className="developer__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar
-              magna purus semper id est lacus. Aenean morbi at eros curabitur
-              volutpat. Maecenas commodo integer massa ac ornare sed dui.{" "}
+              Всем привет, вы попали на мой сайт портфолио. Здесь вы можете
+              ознакомиться с информацией обо мне и выполненными проектами.
             </p>
             <img src={frontend} alt="frontend" className="frontend__img" />
             <img src={developer} alt="developer" className="developer__img" />
             <p className="developer__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar
-              magna purus semper id est lacus. Aenean morbi at eros curabitur
-              volutpat. Maecenas commodo integer massa ac ornare sed dui.{" "}
+              Ищу новые возможности для развития своих навыков и опыта в
+              динамичной компании, где я смогу применить свои знания и умения в
+              полной мере.
             </p>
           </div>
         </div>
